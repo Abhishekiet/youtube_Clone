@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import { Form ,Control,Append,InputGroup } from 'react-bootstrap';
+import { Form  } from 'react-bootstrap';
 import logo from './logo.png'
 
 
 class Search extends Component{
-  constructor(props){
-    super(props)
-    this.state={
+ state={
        
-    }
   }
 
   render(){
@@ -18,7 +15,7 @@ class Search extends Component{
       <div className="container m-3 shadow ">
          <div style={{marginLeft:"px"}} className="row">
          <div className="col-md-2">
-         <img src={logo}/>
+         <img src={logo} alt="img"/>
          </div>
            <div className="col-md-9">
             <Form.Control style={{minHeight:"40px"}}className="m-2" type="email" placeholder="Search for a video "

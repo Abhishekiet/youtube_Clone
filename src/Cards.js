@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Card , Img, Body ,Title,  } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 
 class Cards extends Component{
-    constructor(props){
-        super(props)
-    }
+   
     
     render()
     {   const {video,cardclick} = this.props
