@@ -29,9 +29,9 @@ class Currentvideo extends Component{
       }
    
     return(
-      <div className=" shadow selectedvideo ">
+      <div className=" shadow selectedvideo p-2">
            <div>
-               <iframe className="m-3" width="750" height="500" src={videosrc} allowFullScreen title="test"></iframe>
+               <iframe className="m-3" width="810" height="500" src={videosrc} allowFullScreen title="test"></iframe>
                <h3 className="text-left m-2"> {title} </h3>
                <h5 className="text-left m-2"> {channel} </h5>
                <h6 className="text-left m-2">{description}</h6>
