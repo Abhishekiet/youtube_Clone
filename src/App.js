@@ -46,7 +46,7 @@ class App extends Component{
   render(){
     
     return(
-      <div>
+      <div style={{marginLeft:"20px"}}>
            <Search searchitem={this.state.searchitem} handle={this.handle} search={this.search}/>
 
            <div className="container-fluid p-2 m-3 ">
