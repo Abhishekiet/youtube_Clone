@@ -30,4 +30,4 @@ class Search extends Component{
     )
   }
 }
-export default Searc
+export default Search
