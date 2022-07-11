@@ -18,7 +18,7 @@ class Currentvideo extends Component{
     if(selectedvideo.length === 0){
        return ( <div> 
      <h1 style={{marginLeft:"300px"}} className="text-center "> Please Search A video To Play...</h1> 
-     <h5 style={{marginLeft:"300px"}} className="text-center text-primary shadow bg-light">-Developed and maintained by Sachin Sharma</h5>
+     <h5 style={{marginLeft:"300px"}} className="text-center text-primary shadow bg-light">-Developed and maintained by Abhishek Dameria</h5>
        </div>)}
    
    else{
